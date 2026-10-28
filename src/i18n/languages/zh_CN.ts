@@ -3,7 +3,7 @@ import type { Translation } from "../translation";
 
 export const zh_CN: Translation = {
 	[Key.home]: "主页",
-	[Key.about]: "关于我",
+	[Key.about]: "关于我们",
 	[Key.archive]: "归档",
 	[Key.search]: "搜索",
 	[Key.searchNoResults]: "找不到相关结果。",
@@ -17,7 +17,7 @@ export const zh_CN: Translation = {
 	// 导航栏菜单分组
 	[Key.navArticles]: "文章",
 	[Key.navSocial]: "社交",
-	[Key.navMine]: "我的",
+	[Key.navMine]: "社团",
 	[Key.navAbout]: "关于",
 	[Key.navLinks]: "链接",
 	[Key.all]: "全部",
@@ -81,7 +81,7 @@ export const zh_CN: Translation = {
 	[Key.guestbookCommentHint]:
 		"您还未在配置文件中启用评论系统，启用后访客才可在此留言",
 	[Key.friends]: "友链",
-	[Key.friendsDescription]: "这里是我的朋友们，欢迎互相访问交流",
+	[Key.friendsDescription]: "这里是社团的友链，欢迎互相访问交流",
 	[Key.searchFriends]: "搜索友链...",
 	[Key.friendsEmpty]: "暂无友情链接",
 	[Key.booknav]: "书签导航",

@@ -19,5 +19,8 @@
   "public:assets/images/sponsor/wechat.png": "d5d5d5dad9d7dbd8cf",
   "public:assets/images/sponsor/alipay.png": "8ebbde91bedf93c0e0",
   "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93",
-  "src:content/projects/images/firefly.avif": "b5b0b3bcb6bbe0e0df"
+  "src:content/projects/images/firefly.avif": "b5b0b3bcb6bbe0e0df",
+  "src:assets/images/avatar.png": "d9e7fadae0f9debdf2",
+  "src:assets/images/logo/club-logo.png": "d9e7fadae0f9debdf2",
+  "src:assets/images/logo/club-logo-512.png": "d8e6f9dae0f8ddbdf0"
 }
