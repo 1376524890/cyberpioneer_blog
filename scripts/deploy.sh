@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Cyber先锋社博客 - 服务器端部署脚本
-# 用法：在服务器 /opt/cyber_blog 下执行 bash scripts/deploy.sh
-# 流程：拉取最新源码 -> 安装依赖 -> 构建 -> 同步产物到 nginx 目录
+# 用法：在服务器仓库目录下执行 bash scripts/deploy.sh
+# 流程：拉取最新源码 -> 安装依赖 -> 构建 -> 同步产物到站点目录
 set -euo pipefail
 
-REPO_DIR="/opt/cyber_blog"
-WEB_DIR="/var/www/cyber_blog"
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+WEB_DIR="${WEB_DIR:-/var/www/cyber_blog}"
 
 cd "$REPO_DIR"
 
@@ -23,4 +23,4 @@ pnpm build
 echo "==> [4/4] 同步到 $WEB_DIR ..."
 rsync -a --delete "$REPO_DIR/dist/" "$WEB_DIR/"
 
-echo "==> 部署完成！访问 https://www.cyberpioneer.club 验证"
+echo "==> 部署完成！"

@@ -1,7 +1,7 @@
 ---
 title: 本博客的诞生记录：Astro + Firefly 建站全流程
 published: 2026-10-28
-description: 记录 Cyber先锋社官方博客从框架选型到服务器部署的完整过程：为什么选择 Astro + Firefly？如何在 Ubuntu 服务器上部署静态博客？本文也是一份可复用的建站指南。
+description: 记录 Cyber先锋社官方博客从框架选型到上线的完整过程：为什么选择 Astro + Firefly？静态博客如何部署？本文也是一份可复用的建站思路参考。
 tags: [建站, Astro, 运维部署]
 category: 技术分享
 slug: how-this-blog-was-built
@@ -17,7 +17,7 @@ slug: how-this-blog-was-built
 | Halo | 国产、界面现代 | 需要 Java 运行时，内存占用高 |
 | **Astro 静态站** | 零数据库、纯静态文件、速度快 | 更新内容需要重新构建 |
 
-我们的服务器配置不高（2 核 1.6G 内存），静态方案几乎不占运行时资源，nginx 托管静态文件的内存开销可以忽略，安全性也远好于动态 CMS——最终选择 **Astro + Firefly 主题**。
+我们的服务器配置不高，静态方案几乎不占运行时资源，nginx 托管静态文件的内存开销可以忽略，安全性也远好于动态 CMS——最终选择 **Astro + Firefly 主题**。
 
 ## 技术栈一览
 
@@ -26,8 +26,8 @@ slug: how-this-blog-was-built
 主题         Firefly（基于 Fuwari 二次开发）
 包管理器     pnpm
 源码托管     GitHub - 1376524890/cyberpioneer_blog
-Web 服务     nginx
-部署方式     本地构建 → 推送静态产物 → 服务器同步
+Web 服务     nginx（托管静态文件）
+部署方式     源码推 GitHub → 服务器拉取构建 → 同步上线
 ```
 
 ## 本地开发流程
@@ -63,9 +63,9 @@ slug: url-friendly-slug
 
 保存后推送到 GitHub，服务器端拉取重新构建即可上线。
 
-## 服务器部署要点
+## 部署要点
 
-### nginx 站点配置
+静态博客的部署非常简单：任意一台 Linux 服务器 + nginx 托管 `dist/` 目录即可。下面是一份通用的 nginx 站点配置示例（端口与路径按自己环境调整）：
 
 ```nginx
 server {
@@ -73,10 +73,10 @@ server {
     listen [::]:80 default_server;
     server_name _;
 
-    root /var/www/cyber_blog;
+    root /var/www/blog;   # 指向构建产物目录
     index index.html;
 
-    # Astro 默认带尾斜杠，关闭重定向循环风险
+    # Astro 默认带尾斜杠
     location / {
         try_files $uri $uri/ $uri/index.html =404;
     }
@@ -92,18 +92,13 @@ server {
 }
 ```
 
-### 更新流程
-
-```bash
-# 服务器上一条命令完成更新
-cd /opt/cyber_blog && git pull && pnpm build && rsync -a --delete dist/ /var/www/cyber_blog/
-```
+我们的更新流程：源码推送到 GitHub 后，在服务器上拉取、构建，再把 `dist/` 同步到站点目录，一条脚本搞定。出于安全考虑，服务器的具体信息不在此公开。
 
 ## 一点心得
 
 - 静态博客把安全面缩到最小：没有数据库、没有后台登录、没有插件供应链
 - GitHub 管源码，服务器只管渲染结果，职责清晰
-- 对 1.6G 内存的小机器，nginx + 静态文件的组合轻松扛住校园级流量
+- 小内存机器跑 nginx + 静态文件毫无压力，轻松扛住校园级流量
 
 ---
 

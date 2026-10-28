@@ -2,9 +2,8 @@
 
 Cyber先锋社官方网站与博客，基于 [Astro](https://astro.build) + [Firefly](https://github.com/CuteLeaf/Firefly) 主题构建。
 
-- **线上地址**：https://www.cyberpioneer.club （Cloudflare Tunnel + nginx 81 端口回源）
+- **线上地址**：https://www.cyberpioneer.club
 - **源码仓库**：https://github.com/1376524890/cyberpioneer_blog
-- **服务器**：阿里云 ECS（Ubuntu 22.04），站点目录 `/var/www/cyber_blog`
 
 ---
 
@@ -51,7 +50,10 @@ slug: url-friendly-slug        # URL 路径，英文短横线
 3. **分类（category）**：建议沿用现有分类（社团动态 / 技术分享），新增分类请先在群里商量
 4. **标签（tags）**：3 个以内为宜，保持语义化
 5. **图片**：放在文章同名目录 `src/content/posts/images/` 下，用相对路径引用
-6. **内容红线**：涉及漏洞利用、渗透测试的内容**必须**限于合法靶场/授权测试场景，附免责说明；不发布真实攻击载荷、敏感信息（密码、内网拓扑等）
+6. **内容红线**：
+   - 涉及漏洞利用、渗透测试的内容**必须**限于合法靶场/授权测试场景，附免责说明
+   - 不发布真实攻击载荷、敏感信息（密码、内网拓扑等）
+   - **不在文章和配置中写入服务器 IP、账号、内部路径等运维信息**
 7. 提交前建议本地跑一遍 `pnpm build` 确认构建通过
 
 ### 也可以用脚手架
@@ -66,8 +68,7 @@ pnpm new-post    # 按提示生成文章模板
 
 ### 标准流程（推荐）
 
-1. 本地写好文章或改好配置
-2. 提交并推送：
+1. 本地写好文章或改好配置，提交并推送：
 
    ```bash
    git add .
@@ -75,14 +76,15 @@ pnpm new-post    # 按提示生成文章模板
    git push origin main
    ```
 
-3. SSH 到服务器执行一键部署：
+2. 由管理员登录服务器，在仓库目录执行一键部署脚本：
 
    ```bash
-   ssh root@8.152.200.16
-   bash /opt/cyber_blog/scripts/deploy.sh
+   bash scripts/deploy.sh
    ```
 
-   脚本会自动完成：拉取代码 → 安装依赖 → 构建 → 同步到 `/var/www/cyber_blog`
+   脚本会自动完成：拉取代码 → 安装依赖 → 构建 → 同步到站点目录
+
+   > 服务器地址、账号等运维细节由管理员私下保管，不写入本仓库。
 
 ### Commit 规范
 
@@ -108,17 +110,7 @@ pnpm new-post    # 按提示生成文章模板
 | 项目展示 | `src/content/projects/` |
 | 动态（说说） | `src/content/dynamic/` |
 | 字体 | 本地 woff2（`src/assets/fonts/`），不依赖外部 CDN |
-| Web 服务 | nginx 监听 81 端口 |
-| 外网接入 | Cloudflare Tunnel（`cloudflared` systemd 服务，token 模式） |
-
-### 服务器常用命令
-
-```bash
-systemctl status cloudflared        # 隧道状态
-systemctl reload nginx              # 改 nginx 配置后重载
-tail -f /var/log/nginx/error.log    # nginx 错误日志
-bash /opt/cyber_blog/scripts/deploy.sh   # 一键重新部署
-```
+| 部署 | 服务器构建静态站点，nginx 托管，Cloudflare Tunnel 对外提供 HTTPS |
 
 ## 📄 许可
 
