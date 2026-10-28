@@ -113,7 +113,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "Firefly主题",
 				url: "https://github.com/CuteLeaf/Firefly",
 				external: true,
-				icon: "material-symbols:auto_awesome",
+				icon: "material-symbols:style-outline",
 			},
 		],
 	});
