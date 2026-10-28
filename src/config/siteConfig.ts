@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "探索网络安全的先锋阵地",
 
 	// 站点 URL
-	site_url: "http://8.152.200.16",
+	site_url: "https://www.cyberpioneer.club",
 
 	// 站点描述
 	description:
