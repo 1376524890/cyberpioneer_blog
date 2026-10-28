@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到 Cyber先锋社 官方博客！本站刚刚上线，内容持续更新中，欢迎关注。",
+	content: "欢迎来到 Cyber先锋社 官方博客！本站刚刚创建上线，内容持续更新中，欢迎收藏关注。",
 
 	// 是否允许用户关闭公告
 	closable: true,
