@@ -3,7 +3,7 @@ title: "MarkTom"
 slug: member-marktom
 published: 2026-10-29
 draft: false
-order: 1
+order: 100
 description: "Cyber先锋社成员 · 站长。本站搭建与维护者，主理 Python / C++ / Java 教程系列。"
 image: "https://avatars.githubusercontent.com/u/145841894?v=4"
 status: "member"

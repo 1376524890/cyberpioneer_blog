@@ -3,7 +3,7 @@ title: "CTF 训练营"
 slug: ctf-training-camp
 published: 2026-10-28
 draft: false
-order: 2
+order: 20
 description: "面向全校开放的 CTF 入门训练营，两周一期，覆盖 Web / Pwn / Reverse / Crypto / Misc 五大方向。"
 image: ""
 status: "active"

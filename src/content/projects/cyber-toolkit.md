@@ -3,7 +3,7 @@ title: "安全工具箱 CyberToolkit"
 slug: cyber-toolkit
 published: 2026-10-28
 draft: false
-order: 3
+order: 10
 description: "社团共创的开源安全工具集合：编码转换、密码生成、CTF 杂项小工具一应俱全。"
 image: ""
 status: "planning"
