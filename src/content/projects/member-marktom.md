@@ -40,13 +40,17 @@ C++ 实现的「鸡语言」解释器——B 站同名视频的配套源码。�
 
 基于《崩坏：星穹铁道》翁法罗斯剧情的**多智能体模拟**——用 Python 让游戏角色成为可对话的 Agent，是 AI 应用与兴趣爱好结合的有趣实验。
 
-### [Wanderer-AI](https://github.com/1376524890/Wanderer-AI) ⭐2
+### [anti-fraud](https://github.com/1376524890/anti-fraud)
 
-AI 辩论赛观摩项目（JavaScript）——多个 AI 角色围绕议题自动展开辩论，直观展示多智能体交互的潜力。
+中央财经大学信息学院**反诈小程序**（HTML）——面向校园场景的反诈骗宣传工具，用技术为防范电信诈骗出一份力。
 
-### [DocTranslator](https://github.com/1376524890/DocTranslator)
+### [chaoxing_download](https://github.com/1376524890/chaoxing_download)
 
-AI 文档翻译工具——支持多格式文档的智能翻译，实用向工具项目。
+课件不让下载？试试这个（Python）——学习通课件下载工具，解决同学们日常学习中的真实痛点。
+
+### [data-security-toolbox](https://github.com/1376524890/data-security-toolbox)
+
+数据安全工具箱（Vue，Fork 自 skyuff）——Web 端的数据安全实用工具集合。
 
 ## 🔗 主页
 
