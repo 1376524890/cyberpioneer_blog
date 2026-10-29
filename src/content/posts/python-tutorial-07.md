@@ -3,7 +3,7 @@ title: Python 入门教程（七）：迭代器与生成器
 published: 2026-10-29
 description: 理解 for 循环背后的迭代协议、迭代器与可迭代对象的区别、生成器函数与生成器表达式的懒加载、yield 的执行原理、无限序列与管道式数据处理，掌握省内存的 Pythonic 写法。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-07
 series: "Python 入门教程"
 seriesOrder: 7

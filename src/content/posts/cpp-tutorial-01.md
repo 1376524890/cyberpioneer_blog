@@ -3,7 +3,7 @@ title: C++ 入门教程（一）：开发环境与第一个程序
 published: 2026-10-29
 description: 走进 C++ 的世界：认识编译型语言、搭建开发环境、理解 main 函数与编译流程、掌握变量与输入输出流。性能之王的起点从这里开始。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-01
 series: "C++ 入门教程"
 seriesOrder: 1

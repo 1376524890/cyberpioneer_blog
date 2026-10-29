@@ -3,7 +3,7 @@ title: Java 入门教程（六）：面向对象（下）——继承、多态�
 published: 2026-10-29
 description: 讲透 Java OOP 完全体：继承与 super、方法重写规则、多态与动态绑定、抽象类、接口（默认/静态方法）、Object 核心方法（equals/hashCode/toString）、final 三用法与组合原则。
 tags: [Java, 编程入门, 教程, 面向对象, 接口]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-06
 series: "Java 入门教程"
 seriesOrder: 6

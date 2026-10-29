@@ -3,7 +3,7 @@ title: Java 入门教程（七）：核心类库——String、包装类与常�
 published: 2026-10-29
 description: 深入 String 不可变性与常量池、StringBuffer 与 StringBuilder 选型、== 与 equals 的坑、包装类与自动装箱、Integer 缓存陷阱、BigDecimal 金额计算、LocalDateTime 新日期 API。
 tags: [Java, 编程入门, 教程, JavaAPI]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-07
 series: "Java 入门教程"
 seriesOrder: 7

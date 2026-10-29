@@ -3,7 +3,7 @@ title: Java 入门教程（九）：异常处理
 published: 2026-10-29
 description: 完整讲解 Java 异常体系：异常层级分类（受检/非受检）、try/catch/finally 执行规则、try-with-resources、throw 与 throws、自定义异常、异常设计最佳实践与常见误区。
 tags: [Java, 编程入门, 教程, 异常处理]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-09
 series: "Java 入门教程"
 seriesOrder: 9

@@ -3,7 +3,7 @@ title: Java 入门教程（十二）：Stream API 与综合实战
 published: 2026-10-29
 description: 系列收官：Stream 流式处理全解（创建/中间/终端操作、Collectors 收集、分组统计）、Optional 链式防 NPE、综合实战学生管理系统（控制台 CRUD + 集合 + 文件 + 异常 + 多线程），附全系列总结。
 tags: [Java, 编程入门, 教程, Stream, 项目实战]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-12
 series: "Java 入门教程"
 seriesOrder: 12

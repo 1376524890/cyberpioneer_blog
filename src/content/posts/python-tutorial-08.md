@@ -3,7 +3,7 @@ title: Python 入门教程（八）：模块、包与常用标准库
 published: 2026-10-29
 description: 掌握模块的导入四种方式与自定义模块、包的结构与 __init__.py、pip 与虚拟环境实战，以及 os/sys/math/random/json/datetime/time/collections 六大高频标准库的用法详解。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-08
 series: "Python 入门教程"
 seriesOrder: 8

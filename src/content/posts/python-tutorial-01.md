@@ -3,7 +3,7 @@ title: Python 入门教程（一）：从安装到第一个程序
 published: 2026-10-29
 description: 零基础开启 Python 之旅：安装解释器、认识交互式环境、写出第一个程序、理解变量与基本数据类型。本篇是编程语言入门系列的第一步。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-01
 series: "Python 入门教程"
 seriesOrder: 1

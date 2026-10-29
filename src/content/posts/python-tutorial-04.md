@@ -3,7 +3,7 @@ title: Python 入门教程（四）：列表与元组
 published: 2026-10-29
 description: 深入 Python 最核心的容器：列表的增删改查全家桶、切片操作、排序与遍历技巧、浅拷贝与深拷贝的坑、元组的不可变特性与解包，附购物车与成绩统计完整案例。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-04
 series: "Python 入门教程"
 seriesOrder: 4

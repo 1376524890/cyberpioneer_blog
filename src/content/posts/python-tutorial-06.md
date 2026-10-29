@@ -3,7 +3,7 @@ title: Python 入门教程（六）：函数详解
 published: 2026-10-29
 description: 系统讲解函数的定义与调用、参数全家族（默认/关键字/可变/仅关键字）、*与**解包、返回值、作用域与闭包、lambda 与高阶函数、装饰器入门，附实战重构案例。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-06
 series: "Python 入门教程"
 seriesOrder: 6

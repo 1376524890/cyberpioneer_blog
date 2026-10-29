@@ -3,7 +3,7 @@ title: Python 入门教程（十）：面向对象编程
 published: 2026-10-29
 description: 从类的定义到完整面向对象：属性与方法、__init__ 与 self、封装与访问控制、继承与 super、方法重写与多态、魔法方法、property 与 dataclass，用图书馆管理系统贯穿全部知识点。
 tags: [Python, 编程入门, 教程, 面向对象]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-10
 series: "Python 入门教程"
 seriesOrder: 10

@@ -3,7 +3,7 @@ title: Python 入门教程（三）：条件判断与循环控制
 published: 2026-10-29
 description: 完整讲解 if/elif/else 分支结构、while 与 for 循环、range 与 enumerate、break/continue/else 子句、循环嵌套与推导式，用经典练习题巩固流程控制。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-03
 series: "Python 入门教程"
 seriesOrder: 3

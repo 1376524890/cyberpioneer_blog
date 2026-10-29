@@ -3,7 +3,7 @@ title: Python 入门教程（五）：字典与集合
 published: 2026-10-29
 description: 掌握键值对容器字典的增删改查、get 与 setdefault、遍历三件套与嵌套结构，以及集合的去重、交并差运算，附词频统计与通讯录管理完整实战。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-05
 series: "Python 入门教程"
 seriesOrder: 5

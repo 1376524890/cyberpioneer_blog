@@ -3,7 +3,7 @@ title: C++ 入门教程（十）：运算符重载与友元
 published: 2026-10-29
 description: 掌握 C++ 特色能力：运算符重载的规则与常用实现（算术/比较/流/下标/函数调用）、成员与非成员重载的选择、friend 友元机制、Matrix 与 Fraction 完整实现，理解何时不该重载。
 tags: [C++, 编程入门, 教程, 运算符重载]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-10
 series: "C++ 入门教程"
 seriesOrder: 10

@@ -3,7 +3,7 @@ title: Java 入门教程（一）：JDK、IDEA 与第一个程序
 published: 2026-10-29
 description: 进入 Java 的世界：理解"一次编写，到处运行"的原理、安装 JDK 与 IDEA、解剖第一个程序的结构、掌握变量与数据类型。企业级开发语言的起点。
 tags: [Java, 编程入门, 教程]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-01
 series: "Java 入门教程"
 seriesOrder: 1

@@ -3,7 +3,7 @@ title: Java 入门教程（八）：集合框架
 published: 2026-10-29
 description: 系统讲解 Java 集合体系：List（ArrayList/LinkedList）、Set（HashSet/TreeSet/LinkedHashSet）、Map（HashMap/TreeMap）核心操作与选型、迭代与 fail-fast、Comparable 与 Comparator 排序、集合工具类，附词频统计与成绩系统案例。
 tags: [Java, 编程入门, 教程, 集合框架]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-08
 series: "Java 入门教程"
 seriesOrder: 8

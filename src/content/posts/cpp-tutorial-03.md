@@ -3,7 +3,7 @@ title: C++ 入门教程（三）：流程控制
 published: 2026-10-29
 description: 完整讲解 C++ 分支（if/switch）、三种循环（while/do-while/for）、范围 for 与 auto、break/continue、嵌套与经典算法练习（九九表/质数/图形打印/猜数字）。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-03
 series: "C++ 入门教程"
 seriesOrder: 3

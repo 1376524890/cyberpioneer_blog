@@ -3,7 +3,7 @@ title: Java 入门教程（三）：流程控制
 published: 2026-10-29
 description: 完整讲解 Java 分支（if/switch 语句与 switch 表达式）、三种循环、break/continue 带标签跳转、嵌套循环经典练习（九九表/质数/图形/水仙花），覆盖 Java 14+ 增强 switch 新语法。
 tags: [Java, 编程入门, 教程]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-03
 series: "Java 入门教程"
 seriesOrder: 3

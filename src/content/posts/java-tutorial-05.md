@@ -3,7 +3,7 @@ title: Java 入门教程（五）：面向对象（上）——类与封装
 published: 2026-10-29
 description: 深入 Java OOP 基础：类与对象、构造方法与方法重载、this 关键字、封装三私有一公开规范、static 与静态成员、包与访问修饰符四档权限，用银行账户与图书系统案例贯穿。
 tags: [Java, 编程入门, 教程, 面向对象]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-05
 series: "Java 入门教程"
 seriesOrder: 5

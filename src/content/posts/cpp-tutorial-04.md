@@ -3,7 +3,7 @@ title: C++ 入门教程（四）：函数详解
 published: 2026-10-29
 description: 深入 C++ 函数：声明与定义分离、参数传递三种方式（值/引用/指针）、默认参数与函数重载、内联与递归、作用域与生命周期、头文件组织，配工资计算器与斐波那契实战。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-04
 series: "C++ 入门教程"
 seriesOrder: 4

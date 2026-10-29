@@ -3,7 +3,7 @@ title: C++ 入门教程（八）：面向对象（上）——类与封装
 published: 2026-10-29
 description: 深入 C++ 类：class 与 struct 的区别、访问控制 public/private/protected、构造函数与初始化列表、析构函数、拷贝构造与拷贝赋值、深浅拷贝问题、static 成员与 this 指针。
 tags: [C++, 编程入门, 教程, 面向对象]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-08
 series: "C++ 入门教程"
 seriesOrder: 8

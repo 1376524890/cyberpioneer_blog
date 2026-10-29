@@ -3,7 +3,7 @@ title: C++ 入门教程（十二）：异常处理、文件 IO 与综合实战
 published: 2026-10-29
 description: 系列收官：C++ 异常体系（throw/try/catch、标准异常层级、自定义异常、 noexcept）、文件流读写（ifstream/ofstream/stringstream）、通讯录项目综合实战与系列总结。
 tags: [C++, 编程入门, 教程, 项目实战]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-12
 series: "C++ 入门教程"
 seriesOrder: 12

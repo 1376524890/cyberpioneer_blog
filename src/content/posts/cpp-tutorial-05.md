@@ -3,7 +3,7 @@ title: C++ 入门教程（五）：数组与字符串
 published: 2026-10-29
 description: 详解 C 风格数组的局限与二维数组、std::vector 的增删改查全家桶、std::string 的构造与常用操作、C 字符串与 string 互转，掌握现代 C++ 容器优先原则。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-05
 series: "C++ 入门教程"
 seriesOrder: 5

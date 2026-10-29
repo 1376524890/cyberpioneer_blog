@@ -3,7 +3,7 @@ title: C++ 入门教程（二）：语法基础与运算符详解
 published: 2026-10-29
 description: 详解 C++ 注释规范、七类运算符（算术/关系/逻辑/位/赋值/杂项）、类型转换规则（隐式/显式/constexpr）、auto 与 typedef、常量定义，配可运行示例与典型陷阱。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-02
 series: "C++ 入门教程"
 seriesOrder: 2

@@ -3,7 +3,7 @@ title: Java 入门教程（十）：文件 IO 与 NIO
 published: 2026-10-29
 description: 掌握 Java 文件读写全套路：File 与 Path、字节流与字符流、缓冲流、Files 工具类一行流（readString/write/lines/walk）、CSV 通讯录持久化实战、try-with-resources 综合运用。
 tags: [Java, 编程入门, 教程, 文件IO]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-10
 series: "Java 入门教程"
 seriesOrder: 10

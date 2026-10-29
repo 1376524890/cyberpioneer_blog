@@ -3,7 +3,7 @@ title: Java 入门教程（二）：语法基础与运算符
 published: 2026-10-29
 description: 详解 Java 基本语法：注释、变量与常量、八种基本类型与类型转换规则、七类运算符、Scanner 输入进阶与 printf 格式化，配典型陷阱与对照示例。
 tags: [Java, 编程入门, 教程]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-02
 series: "Java 入门教程"
 seriesOrder: 2

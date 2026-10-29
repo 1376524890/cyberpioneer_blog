@@ -3,7 +3,7 @@ title: Java 入门教程（四）：方法与数组
 published: 2026-10-29
 description: 掌握 Java 方法定义与重载、可变参数、值传递本质、数组全操作（声明/遍历/工具类 Arrays/二维数组）、命令行参数与 main 签名，附数组统计与矩阵转置实战。
 tags: [Java, 编程入门, 教程]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-04
 series: "Java 入门教程"
 seriesOrder: 4

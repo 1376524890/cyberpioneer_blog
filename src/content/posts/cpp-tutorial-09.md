@@ -3,7 +3,7 @@ title: C++ 入门教程（九）：面向对象（下）——继承与多态
 published: 2026-10-29
 description: 讲透 C++ 继承体系：派生类构造顺序、protected 访问、虚函数与动态绑定原理、override 与 final、纯虚函数与抽象类、虚析构函数、多态实战图形系统与怪奇物语。
 tags: [C++, 编程入门, 教程, 面向对象, 多态]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-09
 series: "C++ 入门教程"
 seriesOrder: 9

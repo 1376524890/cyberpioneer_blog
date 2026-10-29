@@ -3,7 +3,7 @@ title: Python 入门教程（十一）：综合实战——命令行待办事项
 published: 2026-10-29
 description: 系列收官之作：从需求分析到架构设计，综合运用函数、字典、JSON 持久化、异常处理、模块拆分，完整开发一个可增删改查、筛选统计、命令行交互的待办事项管理器，含完整源码。
 tags: [Python, 项目实战, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-11
 series: "Python 入门教程"
 seriesOrder: 11

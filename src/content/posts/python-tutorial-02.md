@@ -3,7 +3,7 @@ title: Python 入门教程（二）：运算符与字符串详解
 published: 2026-10-29
 description: 详解 Python 全部七类运算符（算术/比较/赋值/逻辑/成员/身份/位运算）与字符串的索引切片、常用方法、格式化输出，配套大量可运行示例。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-02
 series: "Python 入门教程"
 seriesOrder: 2

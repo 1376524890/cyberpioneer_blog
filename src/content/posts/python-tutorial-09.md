@@ -3,7 +3,7 @@ title: Python 入门教程（九）：文件操作与异常处理
 published: 2026-10-29
 description: 完整讲解文件读写模式与 with 上下文管理、编码问题排查、逐行处理与追加写入，异常处理全语法（try/except/else/finally/raise）、自定义异常与工程化容错策略，附日志记录实战。
 tags: [Python, 编程入门, 教程]
-category: 编程教程
+category: Python 教程
 slug: python-tutorial-09
 series: "Python 入门教程"
 seriesOrder: 9

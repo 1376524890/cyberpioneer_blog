@@ -3,7 +3,7 @@ title: C++ 入门教程（十一）：STL 标准模板库
 published: 2026-10-29
 description: 系统遍历 STL 三大件：容器（vector/deque/list/map/set/unordered）选型对比、迭代器体系与常用算法（sort/find/count/accumulate/for_each/remove），附词频统计与成绩系统综合案例。
 tags: [C++, 编程入门, 教程, STL]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-11
 series: "C++ 入门教程"
 seriesOrder: 11

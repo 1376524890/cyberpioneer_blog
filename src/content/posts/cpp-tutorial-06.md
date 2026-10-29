@@ -3,7 +3,7 @@ title: C++ 入门教程（六）：指针与引用
 published: 2026-10-29
 description: 征服 C++ 深水区：内存模型与地址、指针定义解引用、指针与数组、动态内存 new/delete、悬空指针与内存泄漏、引用与指针对比、智能指针 unique_ptr/shared_ptr 入门。
 tags: [C++, 编程入门, 教程, 指针]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-06
 series: "C++ 入门教程"
 seriesOrder: 6

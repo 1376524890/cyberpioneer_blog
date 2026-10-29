@@ -3,7 +3,7 @@ title: C++ 入门教程（七）：结构体与枚举
 published: 2026-10-29
 description: 掌握 struct 定义与使用、成员访问与嵌套、结构体数组与 vector、结构体作函数参数、enum 与 enum class 的区别、联合体简介，用学生管理与坐标系统案例练手。
 tags: [C++, 编程入门, 教程]
-category: 编程教程
+category: C++ 教程
 slug: cpp-tutorial-07
 series: "C++ 入门教程"
 seriesOrder: 7

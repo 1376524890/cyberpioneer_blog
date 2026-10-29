@@ -3,7 +3,7 @@ title: Java 入门教程（十一）：多线程与 Lambda
 published: 2026-10-29
 description: 进入并发世界：Thread 创建两法与生命周期、synchronized 与原子类、ExecutorService 线程池、Lambda 与函数式接口、Optional 防空指针，附多线程下载统计实战。
 tags: [Java, 编程入门, 教程, 多线程, Lambda]
-category: 编程教程
+category: Java 教程
 slug: java-tutorial-11
 series: "Java 入门教程"
 seriesOrder: 11
