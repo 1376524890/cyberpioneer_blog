@@ -5,7 +5,7 @@ published: 2026-10-29
 draft: false
 order: 100
 description: "Cyber先锋社成员 · 站长。本站搭建与维护者，主理 Python / C++ / Java 教程系列。"
-image: "https://avatars.githubusercontent.com/u/145841894?v=4"
+image: "https://avatars.githubusercontent.com/u/145841894?v=4&s=160"
 status: "member"
 link:
   - label: GitHub 主页
@@ -28,8 +28,26 @@ tags:
 
 - 从零搭建并维护 Cyber先锋社官方网站与博客（Astro + Firefly + Cloudflare Pages）
 - 主理 **Python 入门教程**（11 篇）、**C++ 入门教程**（12 篇）、**Java 入门教程**（12 篇）三大系列
-- 制定[教程板块规则](/series/)与内容协作流程
+- 制定教程板块规则与内容协作流程
+
+## ⭐ GitHub 代表项目
+
+### [kunkun.c_code](https://github.com/1376524890/kunkun.c_code) ⭐16
+
+C++ 实现的「鸡语言」解释器——B 站同名视频的配套源码。把编程语言原理玩成了整活项目，证明学习编译原理也可以很有趣。
+
+### [Amphoreus_smi](https://github.com/1376524890/Amphoreus_smi) ⭐11
+
+基于《崩坏：星穹铁道》翁法罗斯剧情的**多智能体模拟**——用 Python 让游戏角色成为可对话的 Agent，是 AI 应用与兴趣爱好结合的有趣实验。
+
+### [Wanderer-AI](https://github.com/1376524890/Wanderer-AI) ⭐2
+
+AI 辩论赛观摩项目（JavaScript）——多个 AI 角色围绕议题自动展开辩论，直观展示多智能体交互的潜力。
+
+### [DocTranslator](https://github.com/1376524890/DocTranslator)
+
+AI 文档翻译工具——支持多格式文档的智能翻译，实用向工具项目。
 
 ## 🔗 主页
 
-> 想认识更多同好？欢迎访问我的 GitHub 主页，也欢迎社团成员把自己的主页[提交到这里](https://github.com/1376524890/cyberpioneer_blog)展示。
+> 想认识更多同好？欢迎访问我的 [GitHub 主页](https://github.com/1376524890)。也欢迎社团成员把自己的主页提交展示——复制本文件为模板修改即可。
