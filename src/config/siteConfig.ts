@@ -45,23 +45,26 @@ export const siteConfig: SiteConfig = {
 	title: "Cyber先锋社",
 
 	// 站点副标题
-	subtitle: "探索网络安全的先锋阵地",
+	subtitle: "探索信息技术的先锋阵地",
 
 	// 站点 URL
 	site_url: "https://www.cyberpioneer.club",
 
 	// 站点描述
 	description:
-		"Cyber先锋社官方博客。我们是一支专注于网络安全与信息技术的学生技术社团，在这里分享社团动态、CTF 竞赛、安全技术文章与活动通知，欢迎每一位对黑客精神与技术探索感兴趣的同学。",
+		"Cyber先锋社官方博客。我们是一支专注于信息技术的学生技术社团，在这里分享编程教程（Python/C++/Java）、Web 开发、网络安全等技术文章与活动动态，欢迎每一位热爱技术探索的同学。",
 
 	// 站点关键词
 	keywords: [
 		"Cyber先锋社",
+		"信息技术",
+		"编程教程",
+		"Python",
+		"C++",
+		"Java",
+		"AI",
 		"网络安全",
-		"CTF",
 		"技术社团",
-		"信息安全",
-		"编程开发",
 		"技术分享",
 		"博客",
 	],

@@ -3,7 +3,7 @@ title: CTF 入门指南：什么是 CTF，如何开始你的第一道题？
 published: 2026-10-28
 description: CTF（Capture The Flag）是网络安全领域最流行的竞赛形式。本文带你了解 CTF 的五大方向、常见题型与入门学习路径，帮你迈出网络安全竞赛的第一步。
 tags: [CTF, 网络安全, 入门指南]
-category: 技术分享
+category: 网络安全
 slug: ctf-beginners-guide
 ---
 

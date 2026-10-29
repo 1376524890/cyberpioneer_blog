@@ -29,6 +29,8 @@ pnpm build             # 构建静态站点到 dist/
 
 文章存放于 `src/content/posts/`，Markdown 格式，文件头部使用 frontmatter 定义元信息：
 
+> 📚 **写教程类文章前，请先阅读 [docs/tutorial-rules.md](./docs/tutorial-rules.md)**——包含板块规划、系列组织方式与教程编写规范。
+
 ```markdown
 ---
 title: 文章标题
@@ -47,7 +49,7 @@ slug: url-friendly-slug        # URL 路径，英文短横线
 
 1. **文件命名**：与 `slug` 保持一致，如 `my-first-post.md`
 2. **slug 规则**：只用小写英文、数字、短横线 `-`，避免中文和特殊字符
-3. **分类（category）**：建议沿用现有分类（社团动态 / 技术分享），新增分类请先在群里商量
+3. **分类（category）**：沿用现有分类（社团动态 / 编程教程 / 网络安全 / 技术分享），新增分类请先在群里商量
 4. **标签（tags）**：3 个以内为宜，保持语义化
 5. **图片**：放在文章同名目录 `src/content/posts/images/` 下，用相对路径引用
 6. **内容红线**：

@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Cyber先锋社",
 
 	// 个人签名
-	bio: "探索网络安全的先锋阵地",
+	bio: "探索信息技术的先锋阵地",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

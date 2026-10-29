@@ -3,7 +3,7 @@ title: Web 安全入门：从一个 SQL 注入的诞生说起
 published: 2026-10-28
 description: SQL 注入是 Web 安全中最经典、影响面最广的漏洞之一。本文以一个极简的登录接口为例，带你直观理解 SQL 注入的成因、利用方式与正确防御手段，适合刚接触 Web 安全的同学阅读。
 tags: [Web安全, SQL注入, OWASP]
-category: 技术分享
+category: 网络安全
 slug: web-security-sql-injection-basics
 ---
 
