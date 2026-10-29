@@ -89,13 +89,13 @@ export const zh_CN: Translation = {
 	[Key.searchBooknav]: "搜索书签...",
 	[Key.booknavEmpty]: "暂无书签",
 
-	// 项目展示页
-	[Key.projects]: "项目",
-	[Key.projectsDescription]: "这里展示我开发过的项目",
+	// 成员展示页（原项目展示页）
+	[Key.projects]: "成员",
+	[Key.projectsDescription]: "这里是社团成员的主页展示墙",
 	[Key.projectDetails]: "查看详情",
-	[Key.projectBack]: "返回项目列表",
-	[Key.projectEmpty]: "暂无项目",
-	[Key.projectSearch]: "搜索项目",
+	[Key.projectBack]: "返回成员列表",
+	[Key.projectEmpty]: "暂无成员",
+	[Key.projectSearch]: "搜索成员",
 	[Key.projectStatusPlanning]: "计划中",
 	[Key.projectStatusDeveloping]: "开发中",
 	[Key.projectStatusPublished]: "已发布",

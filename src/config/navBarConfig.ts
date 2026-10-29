@@ -183,9 +183,9 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "dynamic",
 	},
 	Projects: {
-		name: "项目",
+		name: "成员",
 		url: "/projects/",
-		icon: "material-symbols:rocket-launch",
+		icon: "material-symbols:group-rounded",
 		pageKey: "projects",
 	},
 	Gallery: {
