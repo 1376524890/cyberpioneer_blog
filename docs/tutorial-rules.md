@@ -84,7 +84,7 @@ seriesOrder: 1                   # 系列内序号
 2. **写作**：按本规则起草，文件放 `src/content/posts/`
 3. **自测**：本地 `pnpm build` 确认构建通过，`pnpm dev` 检查排版
 4. **互审**：至少一位其他社员读过并反馈（先在群里完成）
-5. **提交**：按 README 流程 push → 服务器执行 `bash scripts/deploy.sh`
+5. **提交**：push 到 main 分支，Cloudflare Pages 自动构建发布（约 1-2 分钟生效）
 6. **勘误**：发现错误直接修改重新发布，文末更新「最后修订」说明
 
 ### Commit 规范（教程场景）

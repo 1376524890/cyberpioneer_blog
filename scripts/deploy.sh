@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-# Cyber先锋社博客 - 服务器端部署脚本
-# 用法：在服务器仓库目录下执行 bash scripts/deploy.sh
+# Cyber先锋社博客 - 备用部署脚本（自建服务器手动构建）
+#
+# ⚠ 日常部署已迁移至 Cloudflare Pages：push 到 main 即自动构建发布，
+#    本脚本仅在 Cloudflare Pages 不可用等应急场景下使用。
+#
+# 用法：在备用服务器的仓库目录下执行 bash scripts/deploy.sh
 # 流程：拉取最新源码 -> 安装依赖 -> 构建 -> 同步产物到站点目录
 set -euo pipefail
 

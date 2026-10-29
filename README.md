@@ -66,9 +66,9 @@ pnpm new-post    # 按提示生成文章模板
 
 ## 🔄 更新与部署流程
 
-**本仓库是唯一维护入口：改代码/写文章 → push 到 main → 服务器拉取构建上线。**
+**本仓库是唯一维护入口：push 到 main → Cloudflare Pages 自动构建发布，通常 1-2 分钟后线上生效。**
 
-### 标准流程（推荐）
+### 标准流程
 
 1. 本地写好文章或改好配置，提交并推送：
 
@@ -78,15 +78,11 @@ pnpm new-post    # 按提示生成文章模板
    git push origin main
    ```
 
-2. 由管理员登录服务器，在仓库目录执行一键部署脚本：
+2. Cloudflare Pages 检测到推送后自动拉取构建并发布，无需任何手动操作。可在 Cloudflare Dashboard → Workers & Pages → 项目 → Deployments 查看构建进度与历史。
 
-   ```bash
-   bash scripts/deploy.sh
-   ```
+3. 推送后想立即确认，访问线上页面强制刷新（Ctrl/Cmd+Shift+R）即可；构建未完成时看到的是上一版本。
 
-   脚本会自动完成：拉取代码 → 安装依赖 → 构建 → 同步到站点目录
-
-   > 服务器地址、账号等运维细节由管理员私下保管，不写入本仓库。
+> 构建环境要点：Node 22 + pnpm，构建命令 `pnpm build`，产物目录 `dist`，均已在平台项目设置中配置。字体为本地文件，构建不依赖外部 CDN。
 
 ### Commit 规范
 
@@ -112,7 +108,7 @@ pnpm new-post    # 按提示生成文章模板
 | 项目展示 | `src/content/projects/` |
 | 动态（说说） | `src/content/dynamic/` |
 | 字体 | 本地 woff2（`src/assets/fonts/`），不依赖外部 CDN |
-| 部署 | 服务器构建静态站点，nginx 托管，Cloudflare Tunnel 对外提供 HTTPS |
+| 托管 | GitHub 仓库 + Cloudflare Pages 自动构建，绑定自定义域名提供 HTTPS |
 
 ## 📄 许可
 
