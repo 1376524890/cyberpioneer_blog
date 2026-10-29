@@ -5,6 +5,8 @@ Cyber先锋社官方网站与博客，基于 [Astro](https://astro.build) + [Fir
 - **线上地址**：https://www.cyberpioneer.club
 - **源码仓库**：https://github.com/1376524890/cyberpioneer_blog
 
+> 🆕 **新成员必读**：[docs/newcomer-guide.md](./docs/newcomer-guide.md) —— 全板块说明文档，覆盖每个板块的定位、内容、更新方法与注意事项，读完即可独立完成日常更新维护。
+
 ---
 
 ## 🚀 快速开始（本地开发）
