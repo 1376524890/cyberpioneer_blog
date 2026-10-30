@@ -1,7 +1,7 @@
 ---
 title: 面向 AI 的博客管理界面
 published: 2026-10-30
-draft: true
+draft: false
 description: 介绍本社团内容管理服务如何把 AI 对话接入博客维护：读取资料、生成待确认提案、经字段校验与并发保护后执行，并说明编辑器、密钥、用量与当前限制。
 image: ""
 tags:
@@ -21,6 +21,7 @@ password: cyberclubnbnb666
 passwordHint: ""
 series: ""
 ---
+
 
 
 # 面向 AI 的博客管理界面
