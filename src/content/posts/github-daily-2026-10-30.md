@@ -3,6 +3,7 @@ title: GitHub 每日开源精选 · 2026-10-30
 published: 2026-10-30
 draft: true
 description: 介绍 claude-mem、OpenMausBot、impeccable、OpenBot、ziwei-doushu 五个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,8 +11,17 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
+series: ""
 ---
+
 
 今天翻到的五个项目，各自解决一个具体问题。claude-mem 把 agent 会话压缩成可检索记忆，下次启动自动注入上下文；OpenMausBot 把 Claude Code 和 Codex CLI 装进聊天侧栏，每个 bot 有独立人格、记忆和一台可远程操作的计算机；Impeccable 给编码 agent 补上 24 个设计命令和 62 条确定性规则，把 AI 界面的俗套挡在发布前；OpenBot 让每个 AI 同事拥有自己的电脑，所有动作先裁决后执行；ziwei-doushu 用 TypeScript 把紫微斗数排盘算清楚，从真太阳时到十二宫星曜与四化。它们不共享同一套理念，但都值得打开源码，看看内部模块怎样配合。
 
