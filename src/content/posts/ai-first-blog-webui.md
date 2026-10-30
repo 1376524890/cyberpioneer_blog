@@ -17,8 +17,6 @@ sourceLink: ""
 licenseName: ""
 licenseUrl: ""
 comment: true
-password: cyberclubnbnb666
-passwordHint: ""
 series: ""
 ---
 
