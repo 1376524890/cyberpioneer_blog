@@ -19,8 +19,10 @@ licenseUrl: ""
 comment: true
 password: ""
 passwordHint: ""
-series: ""
+series: GitHub每日精选
+seriesOrder: 1
 ---
+
 
 
 
