@@ -11,6 +11,8 @@ tags:
 category: 技术分享
 lang: zh-CN
 author: Cyber先锋社
+series: GitHub每日精选
+seriesOrder: 2
 githubRepos:
   - {"name":"expo/skills","id":1106846196}
   - {"name":"mattpocock/skills","id":1148788086}
@@ -18,6 +20,7 @@ githubRepos:
   - {"name":"JetBrains/thinkrail","id":1293238217}
   - {"name":"obra/superpowers","id":1073224795}
 ---
+
 
 在Claude Code里让代理升级Expo应用，它没有直接翻文档，而是先加载入口技能确认项目依赖，再转给升级技能给出具体命令和版本避坑提醒；在OpenCode里提一个导出需求，代理先反问使用场景和数据量，再进入实现。这些行为背后是几个把开发方法论封装成可组合技能的开源项目。本文介绍五个近期值得留意的仓库：expo/skills、mattpocock/skills、HKUDS/DeepTutor、JetBrains/thinkrail和obra/superpowers。它们分别解决代理领域知识注入、需求拷问与工单拆解、辅导对话回合管理、git worktree隔离代理会话、以及先对齐再写码的流程引导问题。
 
