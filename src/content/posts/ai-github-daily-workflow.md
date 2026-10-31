@@ -1,7 +1,7 @@
 ---
 title: 让博客每天读懂五个新项目：GitHub 推荐 Agent 的实现
 published: 2026-10-31
-draft: true
+draft: false
 description: 从 GitHub 日榜选题、历史去重和核心源码阅读，到独立审稿、PNG 配图和草稿保存，介绍博客管理后台的每日推荐 Agent 如何持续工作。
 image: ""
 tags:
@@ -23,6 +23,7 @@ series: ""
 githubRepos:
   - {"name":"1376524890/cyberblog_manageUI"}
 ---
+
 
 
 
