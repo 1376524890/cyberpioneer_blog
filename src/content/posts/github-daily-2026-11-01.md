@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-01
 published: 2026-11-01
-draft: true
+draft: false
 description: 介绍 Claude-Code-Game-Studios、browser、OpenMAIC 等 3 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 3
 githubRepos:
@@ -18,6 +26,7 @@ githubRepos:
   - {"name":"lightpanda-io/browser","id":598667202}
   - {"name":"THU-MAIC/OpenMAIC","id":1178737655}
 ---
+
 
 用 Claude Code 做游戏时，数值硬编码、设计文档缺位、系统做完才发现与核心幻想对不上，这些问题往往源于单会话里缺少评审与 QA 角色。Claude Code Game Studios 把 49 个 agent 和 74 个斜杠命令组织成总监、部门主管、专员三层，让每个阶段都有流程节点可依。另一边，Lightpanda 用 Zig 从零实现无头浏览器，把 HTML 解析与文本渲染交给 Rust crate，fetch 命令直接输出 markdown，也能通过 CDP 让 Puppeteer 连接。OpenMAIC 则把一句学习需求变成带大纲、讲解智能体和旁白的多智能体课堂，生成任务落在服务端，关掉页面也不会中断。三个项目分别面向游戏开发流程、网页内容提取和互动教学，下面按各自解决的问题与内部配合展开。
 
