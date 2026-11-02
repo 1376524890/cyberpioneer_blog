@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-02
 published: 2026-11-02
-draft: true
+draft: false
 description: 介绍 Kronos、public-apis、Handy、kornia、hex 等 5 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 4
 githubRepos:
@@ -20,6 +28,7 @@ githubRepos:
   - {"name":"kornia/kornia","id":145693916}
   - {"name":"anomalyco/hex","id":1304469751}
 ---
+
 
 周末翻开源榜单时，我习惯先看那些能直接解决手头问题的项目。这次挑出的五个项目各有明确的使用场景：Kronos 把 K 线序列当作语言来建模，输入一段 OHLCV 历史就能生成未来行情；public-apis 用两个校验脚本维护一份近五十万星标的 API 索引，把失效链接挡在合并之前；Handy 和 Hex 都把语音听写做成本地工具，按住快捷键说话、松开即粘贴；Kornia 则把 SIFT、特征匹配、RANSAC 和图像 Warp 串成 PyTorch 张量算子，整条几何链路可以在 GPU 上跑并参与自动求导。下面按各自解决的问题、调用方式和内部设计依次展开。
 
