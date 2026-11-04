@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-03
 published: 2026-11-03
-draft: true
+draft: false
 description: 介绍 agent-desktop、Scrapling、Hyprland、FreeToken、worktrunk 等 5 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 5
 githubRepos:
@@ -20,6 +28,7 @@ githubRepos:
   - {"name":"FlashML-org/FreeToken","id":1307001698}
   - {"name":"max-sixty/worktrunk","id":1078528927}
 ---
+
 
 桌面自动化还在截图找坐标？爬虫要同时应付静态页和动态渲染？本地跑大模型总被显存卡住？这一期整理五个近期值得动手试的开源项目，覆盖的场景各不相同。agent-desktop 把桌面操作建立无障碍树的 ref 快照上，Scrapling 用一个 Python 包串起请求、渲染与解析，Hyprland 自己实现了 Wayland 协议栈与渲染管线，FreeToken 用专家槽缓存把 MoE 权重留在主机内存，Worktrunk 则把 Git worktree 收成三条命令，让并行代理各占一个目录。每个项目都从具体用法切入，顺着解决什么问题、内部模块怎样配合展开，源码路径只在有助于理解时出现。
 
