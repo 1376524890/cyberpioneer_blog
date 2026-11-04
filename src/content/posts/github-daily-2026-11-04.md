@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-04
 published: 2026-11-04
-draft: true
+draft: false
 description: 介绍 colibri、heretic、portal-ai-plugins、ai-goofish-monitor 等 4 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 6
 githubRepos:
@@ -19,6 +27,7 @@ githubRepos:
   - {"name":"spotify/portal-ai-plugins","id":1310374568}
   - {"name":"Usagi-org/ai-goofish-monitor","id":1020672081}
 ---
+
 
 今天想聊四个项目，它们各自解决一个具体问题。colibri 把数百亿参数的 MoE 模型拆成热、温、冷三层，让 8 GB 内存的机器也能起步跑本地推理；heretic 用对比提示和评分器搜索权重修改方向，在消费级显卡上把模型的模板化拒答压下去；spotify/portal-ai-plugins 把 Portal CLI 封装成编码代理能照着执行的工作流技能，补上“知道要做什么、不知道怎么安全调用”的断层；ai-goofish-monitor 用 Playwright 抓闲鱼商品，按规则判断后推到手机。下面按各自的使用场景和内部设计展开。
 
