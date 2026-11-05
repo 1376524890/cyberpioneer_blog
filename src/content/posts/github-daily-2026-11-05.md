@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-05
 published: 2026-11-05
-draft: true
+draft: false
 description: 介绍 auto-ontology、floci、pr-agent、MoneyPrinterTurbo、gstack 等 5 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 7
 githubRepos:
@@ -20,6 +28,7 @@ githubRepos:
   - {"name":"harry0703/MoneyPrinterTurbo","id":770153867}
   - {"name":"garrytan/gstack","id":1179264259}
 ---
+
 
 这期整理的项目都来自真实的开发场景：有人想把自然语言问题直接变成可执行的SQL，有人想在本地跑通AWS集成测试而不碰真实账号，也有人希望PR一提交就能收到结构化的审查意见。NVIDIA/auto-ontology用LangGraph把语义候选检索、SQL生成、校验和执行串成一条SSE流式返回的流水线；Floci把S3、DynamoDB等AWS服务塞进一个Docker容器，端点指向localhost:4566就能用；PR-Agent把diff拉取、上下文压缩、模型调用和评论回写做成一条可复用的审查链路；MoneyPrinterTurbo把视频生成拆成后台任务，靠轮询推进脚本、配音和成片；gstack则用23个斜杠命令把Claude Code扩展成覆盖设计、QA和发布的虚拟工程团队。下面逐个展开它们解决什么问题、怎么用、内部模块如何配合。
 
