@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-06
 published: 2026-11-06
-draft: true
+draft: false
 description: 介绍 lz4 等 1 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,12 +11,20 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 8
 githubRepos:
   - {"name":"lz4/lz4","id":18106269}
 ---
+
 
 日志采集管道每秒落盘上百兆数据时，用 zlib 压缩往往先把 CPU 打满；换成 LZ4，单核压缩数百 MB/s，解压直接进入每秒数 GB 的量级。它凭什么这么快？答案藏在一套围绕解压速度做取舍的设计里：跳过复杂的熵编码，只做哈希表驱动的字典匹配；把格式拆成块压缩与帧格式两层，块内靠 offset 定位重复序列，帧层用 xxhash 做快速校验；默认档与 HC 档分别服务在线压缩与离线高压缩比。这篇文章顺着这些具体机制展开，看它怎样在压缩比、速度和可靠校验之间画出一道清晰的取舍曲线，以及哪些设计值得数据库、消息队列乃至内核开发者借鉴。
 
