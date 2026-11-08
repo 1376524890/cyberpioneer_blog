@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-08
 published: 2026-11-08
-draft: true
+draft: false
 description: 介绍 skills、localthings 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,13 +11,21 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 10
 githubRepos:
   - {"name":"anthropics/skills","id":1061953414}
   - {"name":"mbillow/localthings","id":1285492676}
 ---
+
 
 让 AI 助手改一份带修订记录的 Word 合同，听起来简单，实际经常翻车：.docx 是个装满 XML 的 ZIP 包，Word 还爱把一句话拆进多个 run，查找替换屡屡失灵。anthropics/skills 里的 docx 技能就是冲着这类活儿来的——一个 SKILL.md 加一整套脚本，Claude 按需加载，解包、编辑、校验、重打包一条龙。另一边，Home Assistant 的 SmartThings 集成全靠云端，账号或三星服务一出问题，家里实体全灭。LocalThings 反其道而行，直接在局域网里跟洗衣机、冰箱、空调对话，配置完就不再碰三星服务器。这两个项目一个管 AI 干活的可复用性，一个管智能家居的本地化，各有各的解法，都值得拆开看看。
 
