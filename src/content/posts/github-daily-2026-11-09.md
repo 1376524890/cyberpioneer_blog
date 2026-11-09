@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-09
 published: 2026-11-09
-draft: true
+draft: false
 description: 介绍 mujoco、billion-context 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,13 +11,21 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 11
 githubRepos:
   - {"name":"google-deepmind/mujoco","id":400501136}
   - {"name":"ranxianglei/billion-context","id":1324949198}
 ---
+
 
 这周挑了两个方向完全不同的开源项目细读。一个是 Google DeepMind 维护的 MuJoCo，物理仿真引擎里的老牌选手，2021 年开源后代码可读性反而成了它的卖点：MJCF 模型如何被编译成定长数组，接触动力学每步到底算了什么，都能顺着源码看清楚。另一个是 billion-context，一个本地代理层，解决的是长会话编码助手的实际痛点——上下文窗口和 token 账单一起爆炸。它拦截请求、把历史折叠成分层摘要块，让 100K 窗口撑起月级十亿 token 量级的会话。一个向下钻到数值计算，一个向上管住模型调用链路，各自都有值得借鉴的工程设计。
 
