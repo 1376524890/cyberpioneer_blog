@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-10
 published: 2026-11-10
-draft: true
+draft: false
 description: 介绍 sherlock、gbrain、agent-browser、daily_stock_analysis、ha-mcp 等 5 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 12
 githubRepos:
@@ -20,6 +28,7 @@ githubRepos:
   - {"name":"ZhuLinsen/daily_stock_analysis","id":1131513930}
   - {"name":"homeassistant-ai/ha-mcp","id":1056618941}
 ---
+
 
 开发者的日常里总有一些反复出现的小摩擦：想在几百个社交平台上查一个用户名是否存在、想让编码 Agent 操作真实浏览器、想给自用的 AI 助手配一套能溯源的记忆、想让 Claude 直接管理家里的 Home Assistant，或者只是想在开盘前快速看一份自选股决策摘要。这些需求各自零散，但社区里都有人认真做成了开源项目。这次挑的五个项目覆盖命令行安全工具、TypeScript 记忆层、Rust CLI、Python 自动化流水线和 MCP 服务器，语言和技术栈各不相同，共同点是都能装完即用，代码可读，解决的问题具体。下面逐个展开，看看它们各自的设计思路和值得借鉴的工程细节。
 
