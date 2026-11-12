@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-12
 published: 2026-11-12
-draft: true
+draft: false
 description: 介绍 modern-web-guidance-src、improve、sure 等 3 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 14
 githubRepos:
@@ -18,6 +26,7 @@ githubRepos:
   - {"name":"shadcn/improve","id":1264986626}
   - {"name":"we-promise/sure","id":1024661423}
 ---
+
 
 编码智能体写代码时经常绕开平台原生能力，转而堆旧模式；接手陌生仓库时，贵的开销花在理解而非修复上；而个人财务应用想自托管，又往往卡在数据组织的混乱上。这三个问题分别对应今天要介绍的三个项目：GoogleChrome 的 modern-web-guidance-src 把四大浏览器团队共同维护的 Web 平台指南做成可检索的技能，在编码时按需注入上下文；shadcn 的 improve 用强模型审计代码库、产出 markdown 计划，把执行留给便宜模型；we-promise 的 Sure 则是 Maybe Finance 的社区分支，一个经过生产打磨的 Rails 单体，账户、交易、余额的组织方式本身就有很多可借鉴之处。
 
