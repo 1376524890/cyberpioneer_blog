@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-13
 published: 2026-11-13
-draft: true
+draft: false
 description: 介绍 nvm、TensorFold 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,13 +11,21 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 15
 githubRepos:
   - {"name":"nvm-sh/nvm","id":612230}
   - {"name":"ashhart/TensorFold","id":1274723381}
 ---
+
 
 同一台机器上跑多个 Node 版本，和在没有 Python 的环境里部署一个本地大模型，看起来是两件不相干的事，这周却各有一个项目把它们做得干净利落。nvm 用一个 bash 函数库管理 `~/.nvm` 下并排安装的多个 Node 版本，`nvm use 22` 一条命令切换，`.nvmrc` 加 shell 集成让切换完全自动化。TensorFold 更激进，把 checkpoint 读取、分词、Metal/CUDA 内核执行和 OpenAI 兼容 API 全部塞进一个 Zig 二进制，`brew install` 之后拉权重、起服务、发 curl，三步跑通本地推理。一个是老牌的版本管理器，一个是新兴的原生推理引擎，都在各自的方向上把依赖收得很窄。
 
