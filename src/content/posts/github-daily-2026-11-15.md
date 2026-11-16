@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-15
 published: 2026-11-15
-draft: true
+draft: false
 description: 介绍 plannotator、claude-trading-skills、chrome-devtools-mcp 等 3 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 17
 githubRepos:
@@ -18,6 +26,7 @@ githubRepos:
   - {"name":"tradermonty/claude-trading-skills","id":1079356098}
   - {"name":"ChromeDevTools/chrome-devtools-mcp","id":1054793726}
 ---
+
 
 代理写完计划没法圈选批注、收盘后想快速判断市场却要翻一堆面板、真实浏览器里的报错 agent 够不着——这三个场景分别对应这周的三个开源项目。Plannotator 给 Claude Code、Codex 这类编码代理补上了浏览器里的批注闭环，圈选、评论、一键送回会话；claude-trading-skills 用七十多个可验证的脚本和十四条工作流，把个人投资者的每日复盘和仓位纪律串起来；chrome-devtools-mcp 则是一个 MCP 服务器，让编码 agent 直接操控真实 Chrome 做导航、截图、网络分析和性能追踪。三个项目领域不同，但都在解决同一类尴尬：工具的能力已经有了，缺的是把它接到你真正干活的地方。
 
