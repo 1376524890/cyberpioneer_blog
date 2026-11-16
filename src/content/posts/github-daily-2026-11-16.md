@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-16
 published: 2026-11-16
-draft: true
+draft: false
 description: 介绍 ag-ui 等 1 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,12 +11,20 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 18
 githubRepos:
   - {"name":"ag-ui-protocol/ag-ui","id":979392131}
 ---
+
 
 给 Agent 写前端界面，最花时间的往往不是模型调用本身，而是流式交互的胶水代码。回复要逐字打出来，工具调用要在界面上挂卡片，共享状态还得双向同步，LangGraph 一套事件格式，CrewAI 又是另一套，前端每个框架都得重写一遍。AG-UI 把这件事标准化了：agent 后端发出约 16 种标准事件，前端按事件类型归约渲染，传输、编码、状态同步由各语言的 SDK 包办。本文顺着它的实际接入场景展开，看看事件流怎么设计、状态怎么同步、哪些做法可以直接搬到自己的项目里。
 
