@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-14
 published: 2026-11-14
-draft: true
+draft: false
 description: 介绍 codex-security、Veyra-NRVideo 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,13 +11,21 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 16
 githubRepos:
   - {"name":"openai/codex-security","id":1299769220}
   - {"name":"Likely7/Veyra-NRVideo","id":1362562155}
 ---
+
 
 这周挑了两个方向完全不同的项目。一个是 OpenAI 的 codex-security，一个 npm 包，把安全扫描做成 CLI 和 TypeScript SDK，从发现漏洞到验证、打补丁、分配负责人，整条链路都在终端里跑完，结果可以导出 SARIF 或直接推进 Linear、Jira。另一个是 Likely7 的 Veyra-NRVideo，用 C++ 在 Windows 上搭了一条 D3D12 实时增强流水线，DLSS 超分、分层神经降噪、帧生成，处理的不是游戏画面，而是本地视频、采集卡和串流进来的主机画面。一个管代码质量，一个管画面质量，各自在自己的领域把工程细节做得很扎实，下面展开讲。
 
