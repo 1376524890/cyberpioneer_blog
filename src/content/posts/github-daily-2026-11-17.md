@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-17
 published: 2026-11-17
-draft: true
+draft: false
 description: 介绍 jiangshan-map 等 1 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,12 +11,20 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 19
 githubRepos:
   - {"name":"DeanChensj/jiangshan-map","id":1310427454}
 ---
+
 
 读史时最常见的困惑之一，是古地名和今天的地图对不上：六朝的建康、苏轼笔下的黄州、韩愈雪中驻马的蓝关，究竟在今天的哪里？从《资治通鉴》开篇的公元前 403 年到今天，疆域又是如何一步步从战国七雄演变为后来的版图？jiangshan-map（江山时序）把这些疑问收进了一张羊皮纸风格的交互地图：拖动时间轴，18 个历史时期的 198 张疆域快照按年份切换，点击任意古城即可查看它的地名谱系，搜索一位历史人物还能回放他的完整行迹。项目用纯前端 JavaScript 实现，GPL-3.0 协议，打开演示站就能直接上手。
 
