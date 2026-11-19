@@ -1,7 +1,7 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-19
 published: 2026-11-19
-draft: true
+draft: false
 description: 介绍 arcane、SkillEvaluator 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
 image: ""
 tags:
@@ -25,6 +25,7 @@ githubRepos:
   - {"name":"getarcaneapp/arcane","id":968905557}
   - {"name":"NVIDIA/SkillEvaluator","id":1278676884}
 ---
+
 
 
 一台跑着十几个容器的小主机，docker ps 敲多了就想找个能点按钮的面板；一个写好的 SKILL.md，装进 agent 之后到底有没有被用上，谁也说不清。这周的两个开源项目正好对应这两种日常烦恼。Arcane 用 Go 写了一个多用户 Docker 管理面板，权限、容器操作、审计日志串成一条完整的请求链路，还能通过 agent 管理远端节点。SkillEvaluator 是 NVIDIA 开源的 Python CLI，对 Agent Skills 做三层评估——静态检查、语义去重、再到真跑对照实验量化技能的实际提升。一个是运维侧的基础设施，一个是 agent 技能的度量工具，各自解决一个具体又常见的问题。
