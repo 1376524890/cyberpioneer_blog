@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-20
 published: 2026-11-20
-draft: true
+draft: false
 description: 介绍 Claude-BugHunter、nginx 等 2 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,13 +11,21 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 22
 githubRepos:
   - {"name":"elementalsouls/Claude-BugHunter","id":1229774092}
   - {"name":"nginx/nginx","id":37912398}
 ---
+
 
 两个项目放在一起，场景差得很远。一个把 Claude Code 变成漏洞赏金研究的工具箱，83 个技能按话题自动触发，背后还有一台确定性引擎约束执行路径；另一个是撑起互联网大半流量的 NGINX，官方源码仓库如今就放在 GitHub 上，一条 nginx -s reload 背后是几十年打磨的进程模型与模块化设计。前者解决的是安全测试里知识零散、流程难复用的问题，后者回答的是万级并发下一台服务器如何保持稳定与可扩展。这篇博客分别展开：它们解决什么问题、怎样上手、内部模块如何配合，以及哪些设计细节值得搬到自己的项目里。
 
