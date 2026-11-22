@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-21
 published: 2026-11-21
-draft: true
+draft: false
 description: 介绍 app-store-compliance 等 1 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,12 +11,20 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 23
 githubRepos:
   - {"name":"mjmirza/app-store-compliance","id":1261204838}
 ---
+
 
 提审之后的等待最难熬：构建、上传、排队，几天后换来一封只有一两句话的拒信，开发者只能反复猜测到底是哪个权限声明或某行代码触发了审核员的注意，改一版再交，再等几天。mjmirza 的 app-store-compliance 把这个循环截断在提交之前。它是一个本地运行的检查工具，clone 仓库后跑一个脚本，把 Xcode 工程或 Android 项目目录传进去，它会扫描源码、Info.plist、权限声明和 Android 权限配置，输出一份按严重程度排序的风险清单，每条都带具体的文件路径和行号，以及对应的审核准则编号。小项目一秒左右扫完，大项目也不到一分钟。这篇文章顺着它的使用方式、内部模块和检查规则的设计展开，看看这类提交前检查工具是怎么把模糊的“审核经验”落成可执行的规则，以及哪些做法可以搬到自己的工程流水线里。
 
