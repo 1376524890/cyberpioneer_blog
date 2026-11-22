@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-22
 published: 2026-11-22
-draft: true
+draft: false
 description: 介绍 last30days-skill 等 1 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,12 +11,20 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 24
 githubRepos:
   - {"name":"mvanhorn/last30days-skill","id":1140843380}
 ---
+
 
 想了解一个不太熟的人最近在做什么，Google 给出的常常是几年前的静态页面。GitHub 上的 last30days-skill 提供了另一条路：一条 `/last30days <名字>` 指令，agent 会同时去 Reddit、X、Hacker News、Polymarket、YouTube、GitHub 等十几个平台搜索，把散落各处的近期动态合成一份可溯源的简报。这件事单靠任何一家模型的内置搜索都做不完整——ChatGPT 有 Reddit 数据但没有 X，Gemini 有 YouTube 却缺 Reddit，平台之间的墙决定了必须有人把这些数据源拼起来。这个项目就是那个拼接层，同时也是一个结构清晰、可以拆开学习的 agent 技能实现范本。
 
