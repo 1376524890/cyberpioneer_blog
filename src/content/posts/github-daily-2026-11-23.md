@@ -1,8 +1,9 @@
 ---
 title: GitHub 每日开源精选 · 2026-11-23
 published: 2026-11-23
-draft: true
+draft: false
 description: 介绍 diagram-design、opensre、Ghost-Downloader-3 等 3 个开源项目，讲解实际用途、使用方法与代码结构。
+image: ""
 tags:
   - GitHub
   - 开源
@@ -10,7 +11,14 @@ tags:
   - 源码阅读
 category: 技术分享
 lang: zh-CN
+pinned: false
 author: Cyber先锋社
+sourceLink: ""
+licenseName: ""
+licenseUrl: ""
+comment: true
+password: ""
+passwordHint: ""
 series: GitHub每日精选
 seriesOrder: 25
 githubRepos:
@@ -18,6 +26,7 @@ githubRepos:
   - {"name":"Tracer-Cloud/opensre","id":1133141258}
   - {"name":"XiaoYouChR/Ghost-Downloader-3","id":679086250}
 ---
+
 
 这周看的三个项目来自完全不同的方向。cathrynlavery/diagram-design 把“怎么画出好看的图表”写成一份给智能体读的规范，Claude Code 里一句话就能产出排版讲究的自包含 HTML+SVG 架构图。OpenSRE 立足凌晨两点 CI 变红的场景，自动读日志、测假设、区分环境问题和代码问题，再推一个修复提交等人审核。Ghost-Downloader-3 则解决另一类日常烦恼：断点续传和多协议下载，它用 pwrite 直接写文件偏移，省掉了分块下载后合并那一步。三个项目规模不一，设计上都有值得拆开看的地方。
 
